@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-Must ensure is a api response is as per i18n-ruby standards
+Must ensure the api response is as per i18n-ruby standards
 
 Consider the following hypothetical locale files:
 ```yml
@@ -55,7 +55,7 @@ I18n.t('hi')
 ```
 
 ## Configuration
-Simply add the following line to initializer `config/initializers/i18n_http_config.rb` file:
+Add the following line to initializer `config/initializers/i18n_http_config.rb` file:
 
 ```ruby
 # config/initializers/i18n_http_config.rb
